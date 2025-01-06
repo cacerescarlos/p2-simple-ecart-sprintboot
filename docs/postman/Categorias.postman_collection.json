@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "1bf0e774-698c-4bc6-bdbf-fc588ff44745",
+		"name": "Categorias",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18026044",
+		"_collection_link": "https://www.postman.com/full-assistance/workspace/ecommerce-spring-boot/collection/18026044-1bf0e774-698c-4bc6-bdbf-fc588ff44745?action=share&creator=18026044&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Obtener TODOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/categories",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/categories/34353633-6562-3533-2d38-6139332d3463",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"categories",
+						"34353633-6562-3533-2d38-6139332d3463"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "d2bad930-d5a8-48fb-b07c-6214e8dd79e0",
+		"name": "Roles",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18026044",
+		"_collection_link": "https://www.postman.com/full-assistance/workspace/ecommerce-spring-boot/collection/18026044-d2bad930-d5a8-48fb-b07c-6214e8dd79e0?action=share&creator=18026044&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Obtener un ROL por NOMBRE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api}}/roles/name/USER",
+					"host": [
+						"{{api}}"
+					],
+					"path": [
+						"roles",
+						"name",
+						"USER"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
